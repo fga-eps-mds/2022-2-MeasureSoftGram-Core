@@ -12,6 +12,7 @@ SONARQUBE_SUPPORTED_MEASURES = [
         "test_builds": {
             "metrics": [
                 "test_execution_time",
+                "tests",
             ],
         }
     },
@@ -52,12 +53,12 @@ SONARQUBE_SUPPORTED_MEASURES = [
     #         ],
     #     }
     # },
-    {
-        "team_throughput": {
-            "metrics": [
-                "number_of_resolved_issues_with_US_label_in_the_last_x_days",
-                "total_number_of_issues_with_US_label_in_the_last_x_days",
-            ],
-        }
-    },
+    # {
+    #     "team_throughput": {
+    #         "metrics": [
+    #             "number_of_resolved_issues_with_US_label_in_the_last_x_days",
+    #             "total_number_of_issues_with_US_label_in_the_last_x_days",
+    #         ],
+    #     }
+    # },
 ]
